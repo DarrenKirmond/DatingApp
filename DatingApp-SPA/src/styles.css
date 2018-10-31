@@ -2,7 +2,10 @@
 
 
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/bootswatch/dist/united/bootstrap.min.css';
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import '../node_modules/alertifyjs/build/css/alertify.min.css';
+@import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
 
 body {
 	background: url(http://www.catster.com/wp-content/uploads/2015/06/cats-human-food-ice-cream.jpg);
