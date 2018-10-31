@@ -1,4 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 
+
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
+
+body {
+	background: url(http://www.catster.com/wp-content/uploads/2015/06/cats-human-food-ice-cream.jpg);
+	background-size: cover;    	
+	color: darkorchid;
+}
+
+h1 {
+    color: red;
+	font-weight: 700;
+	font-size: 5em;
+}
+
+.lead {
+    color: red;
+    font-weight: bold;
+}
+
+
