@@ -14,13 +14,13 @@ body {
 }
 
 h1 {
-    color: red;
+    color: primary;
 	font-weight: 700;
 	font-size: 5em;
 }
 
 .lead {
-    color: red;
+    color: primary;
     font-weight: bold;
 }
 
