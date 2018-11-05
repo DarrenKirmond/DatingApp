@@ -7,13 +7,13 @@
 @import '../node_modules/alertifyjs/build/css/alertify.min.css';
 @import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
 
-body {
+/* body {
 	background: url(http://www.catster.com/wp-content/uploads/2015/06/cats-human-food-ice-cream.jpg);
 	background-size: cover;    	
 	color: darkorchid;
-}
+} */
 
-h1 {
+/* h1 {
     color: primary;
 	font-weight: 700;
 	font-size: 5em;
@@ -22,6 +22,53 @@ h1 {
 .lead {
     color: primary;
     font-weight: bold;
-}
+} */
 
 
+/* Styling from course */
+.tab-panel {
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-radius: 4px;
+  }
+  
+  .nav-tabs > li.open, .member-tabset > .nav-tabs > li:hover {
+	border-bottom: 4px solid #fbcdcf;
+  }
+  
+  .member-tabset > .nav-tabs > li.open > a, .member-tabset > .nav-tabs > li:hover > a {
+	border: 0;
+	background: none !important;
+	color: #333333;
+  }
+  
+  .member-tabset > .nav-tabs > li.open > a > i, .member-tabset > .nav-tabs > li:hover > a > i {
+	color: #a6a6a6;
+  }
+  
+  .member-tabset > .nav-tabs > li.open .dropdown-menu, .member-tabset > .nav-tabs > li:hover .dropdown-menu {
+	margin-top: 0px;
+  }
+  
+  .member-tabset > .nav-tabs > li.active {
+	border-bottom: 4px solid #E95420;
+	position: relative;
+  }
+  
+  .member-tabset > .nav-tabs > li.active > a {
+	border: 0 !important;
+	color: #333333;
+  }
+  
+  .member-tabset > .nav-tabs > li.active > a > i {
+	color: #404040;
+  }
+  
+  .member-tabset > .tab-content {
+	margin-top: -3px;
+	background-color: #fff;
+	border: 0;
+	border-top: 1px solid #eee;
+	padding: 15px 0;
+  }
+  
